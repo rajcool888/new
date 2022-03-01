@@ -1,12 +1,13 @@
 import React from "react";
-const header = () => {
+
+const Header = () => {
     return(
         <div className="ui fixed menu">
-            <div className="ui container center">
-                <h2> Information Manager </h2>
+            <div className="ui container center" >
+                <h2>Information Manager</h2>
             </div>
         </div>
     );
 
 };
-export default header;
+export default Header;
